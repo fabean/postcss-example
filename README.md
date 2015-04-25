@@ -16,16 +16,15 @@ Playing with PostCSS trying to figure things out.
 
 ## What PostCSS plugins I'm using
 
-[postcss-import](https://github.com/postcss/postcss-import)
-[postcss-simple-vars](https://github.com/postcss/postcss-simple-vars)
-[postcss-simple-extend](https://github.com/davidtheclark/postcss-simple-extend)
-[postcss-nested](https://github.com/postcss/postcss-nested)
-[postcss-media-minmax](https://github.com/postcss/postcss-media-minmax)
-[postcss-merge-rules](https://github.com/ben-eb/postcss-merge-rules)
-[postcss-discard-comments](https://github.com/ben-eb/postcss-discard-comments)
-[autoprefixer-core](https://github.com/postcss/autoprefixer)
-
-full(?) list of all postcss plugins available on [PostCSS's github repo](https://github.com/postcss/postcss)
+* [postcss-import](https://github.com/postcss/postcss-import)
+* [postcss-simple-vars](https://github.com/postcss/postcss-simple-vars)
+* [postcss-simple-extend](https://github.com/davidtheclark/postcss-simple-extend)
+* [postcss-nested](https://github.com/postcss/postcss-nested)
+* [postcss-media-minmax](https://github.com/postcss/postcss-media-minmax)
+* [postcss-merge-rules](https://github.com/ben-eb/postcss-merge-rules)
+* [postcss-discard-comments](https://github.com/ben-eb/postcss-discard-comments)
+* [autoprefixer-core](https://github.com/postcss/autoprefixer)
+* full(?) list of all postcss plugins available on [PostCSS's github repo](https://github.com/postcss/postcss)
 
 ## Demo?
 
