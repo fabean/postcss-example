@@ -1,0 +1,14 @@
+body {
+  font-famiy: $baseFontFamily;
+  color: $mainFontColor;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1 {
+  font-weight: 300;
+}

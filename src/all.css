@@ -1,8 +1,10 @@
-@import 'variables';
+@import '_variables';
+@import '_typography';
 
-body {
-  color: $mainFontColor;
+* {
+  box-sizing: border-box;
 }
+
 
 div {
   border-radius:20px;
@@ -24,11 +26,10 @@ div {
 
 @keyframes test {
   0% {
-    left:0;
+    left: 0;
   }
   100% {
-    left:100vw;
+    left: 100vw;
   }
 }
 
-@import 'text';

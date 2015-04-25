@@ -1,6 +1,19 @@
 body {
+  font-famiy: 'Roboto', Helvetica, Arial, sans-serif;
   color: #000;
+  font-size: 18px;
+  line-height: 1.5;
 }
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 
 div {
   border-radius:20px;
@@ -8,13 +21,16 @@ div {
           animation:test 1s ease
 }
 
+
 div.class {
   width: 50px;
 }
 
+
 .class div {
   width: 70px;
 }
+
 
 @media (max-width: 500px) {
 
@@ -26,23 +42,19 @@ div.class {
 
 @-webkit-keyframes test {
   0% {
-    left:0;
+    left: 0;
   }
   100% {
-    left:100vw;
+    left: 100vw;
   }
 }
 
 @keyframes test {
   0% {
-    left:0;
+    left: 0;
   }
   100% {
-    left:100vw;
+    left: 100vw;
   }
 }
 
-h1 {
-  font-size: 50px;
-  font-weight: 300;
-}
