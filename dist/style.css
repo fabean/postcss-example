@@ -1,0 +1,48 @@
+body {
+  color: #000;
+}
+
+div {
+  border-radius:20px;
+  -webkit-animation:test 1s ease;
+          animation:test 1s ease
+}
+
+div.class {
+  width: 50px;
+}
+
+.class div {
+  width: 70px;
+}
+
+@media (max-width: 500px) {
+
+  div {
+    background: red;
+    color: blue;
+  }
+}
+
+@-webkit-keyframes test {
+  0% {
+    left:0;
+  }
+  100% {
+    left:100vw;
+  }
+}
+
+@keyframes test {
+  0% {
+    left:0;
+  }
+  100% {
+    left:100vw;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+}

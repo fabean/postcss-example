@@ -1,0 +1,30 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "testing postcss",
+  "main": "index.html",
+  "dependencies": {
+    "autoprefixer": "^5.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "csswring": "^3.0.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.3.0",
+    "load-grunt-tasks": "^3.1.0",
+    "postcss": "^4.1.5",
+    "postcss-import": "^5.2.2",
+    "postcss-media-minmax": "^1.1.0",
+    "postcss-merge-rules": "^1.2.2",
+    "postcss-nested": "^0.2.2",
+    "postcss-simple-extend": "^0.3.1",
+    "postcss-simple-vars": "^0.2.4",
+    "time-grunt": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+@import 'variables';
+
+body {
+  color: $mainFontColor;
+}
+
+div {
+  border-radius:20px;
+  animation:test 1s ease;
+  @extend body;
+
+  &.class {
+    width: 50px;
+  }
+  .class & {
+    width: 70px;
+  }
+
+  @media (max-width: 500px) {
+    background: red;
+    color: blue;
+  }
+}
+
+@keyframes test {
+  0% {
+    left:0;
+  }
+  100% {
+    left:100vw;
+  }
+}
+
+@import 'text';
