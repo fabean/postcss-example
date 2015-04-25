@@ -1,29 +1,41 @@
 @import '_variables';
 @import '_typography';
+/* 
+ * we can import files almost just like sass using postcss-import 
+ * we do need to include the _ to reference the file proplery, in sass you don't
+ */
 
 * {
   box-sizing: border-box;
 }
 
-
 div {
   border-radius:20px;
   animation:test 1s ease;
   @extend body;
+  /* 
+   * this extend didn't work, you need to define an extend it looks like
+   * https://github.com/davidtheclark/postcss-simple-extend
+   */
 
   &.class {
+    /* &.class works as expected */
     width: 50px;
   }
   .class & {
+    /* was happy `.class &` worked and changed it to `div .class {}` */
+    }
     width: 70px;
   }
 
   @media (max-width: 500px) {
+    /* indented media queries work just like sass */
     background: red;
     color: blue;
   }
 }
 
+/* I used this because I figured it would trigger the autoprefixer which it did */
 @keyframes test {
   0% {
     left: 0;

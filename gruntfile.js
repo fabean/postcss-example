@@ -29,6 +29,7 @@ module.exports = function (grunt) {
           require('postcss-nested')(),
           require('postcss-media-minmax')(),
           require('postcss-merge-rules')(),
+          require('postcss-discard-comments')({removeAll: true}),
           require('autoprefixer-core')({browsers: 'last 2 version'}).postcss,
           // require('csswring').postcss,
         ]

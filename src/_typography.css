@@ -1,4 +1,5 @@
 body {
+  /* using sass like variables thanks to postcss-simple-vars */
   font-famiy: $baseFontFamily;
   color: $mainFontColor;
   font-size: $baseFontSize;
@@ -8,7 +9,8 @@ body {
 h1 {
   font-size: 50px;
 }
-
+/* if you look in the output these will be combined into one selector thanks to postcss-merge-rules */
+/* this comment will be removed thanks to postcss-discard-comments */
 h1 {
   font-weight: 300;
 }
